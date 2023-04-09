@@ -1227,6 +1227,7 @@ div.container.page-title {
 }
 
 .personal-info .image-container:before {
+    border: 6px solid  #111 !important;
     display: inline-block;
     position: absolute;
     content: '';
@@ -2657,6 +2658,7 @@ ul.social-intro li a:hover i {
         padding-right: 0;
     }
     .list-1 {
+        
         margin-bottom: 0;
     }
     .list-2 {
@@ -2936,4 +2938,30 @@ ul.social-intro li a:hover i {
 .project-container .contact-btn {
     margin-top: 45px;
     padding: 14px 50px;
+}
+a{
+    color: #111;
+}
+@media (min-width: 1000px) {
+.birth{
+    padding-right: 25px !important;
+}
+.address{
+    padding-right: 38px !important;
+}
+.freelance{
+    padding-right: 29px !important;
+}
+.phone{
+    padding-right: 43px !important;
+}
+.email{
+    padding-right: 51px !important;
+}
+.linkedin{
+    padding-right: 34px !important;
+}
+.behance{
+    padding-right: 34px !important;
+}
 }
