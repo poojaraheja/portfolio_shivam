@@ -2943,6 +2943,9 @@ a{
     color: #111;
 }
 @media (min-width: 1000px) {
+.name{
+    padding-right: 45px !important;
+}
 .birth{
     padding-right: 25px !important;
 }
